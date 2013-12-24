@@ -44,9 +44,10 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a id="menu-whyamihere" href="#whyamihere">Why I am here?</a></li>                  
-                <li><a id="menu-hire-me" href="#hire-me">About me</a></li>  
+                <li><a id="menu-hire-me" href="#hire-me">Who am I?</a></li>  
+                <li><a id="menu-whyamihere" href="#whyamihere">How can I get it?</a></li>                  
                 <li><a id="menu-gallery" href="#gallery">Check my gallery</a></li>              
+                <li><a id="menu-prizes" href="#prizes">Prizes</a></li>              
                 <li><a id="menu-contact-me" href="#contact-me">Contact me</a></li>
               </ul>
             </div>
@@ -59,38 +60,48 @@
 
     <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide parallax_bg" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>        
       </ol>
       <div class="carousel-inner">
         <div class="item active">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Turn your portrait into a freehand drawing.</h1>
-              <p>Why do I need to have it? Because, it could be an <b>awesome gift</b>.</p>
-              <p><a class="btn btn-lg btn-primary" href="#whyamihere" role="button" id="carousel-whyamihere">Learn more</a></p>
+              <h1>Hi, I am Tamas Varga and this is my site.</h1>
+              <p>If you want to learn more about me and what this site is all about you should click to the "Learn more" button.</p>
+              <p><a id="carousel-button-1" class="btn btn-lg btn-primary" href="#hireme" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
         <div class="item">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <h1>What do I offer?</h1>
+              <p>Freehand drawings of your personal portraits. Why do you need to have it? Because, it could be an <b>awesome gift</b>.</p>
+              <p><a id="carousel-button-2" class="btn btn-lg btn-primary" href="#whyamihere" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>        
+        <div class="item">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>That is an unique gift</h1>
+              <p>A drawing could be an awesome present for birhdays, anniversaries, weddings and Valentine's day.</p>
+              <p><a id="carousel-button-3" class="btn btn-lg btn-primary" href="#whyamihere" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
         <div class="item">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <h1>Have a look at the gallery</h1>
+              <p>Check out my most latest drawings so that you can learn whether you are in the right place or not.</p>
+              <p><a id="carousel-button-4" class="btn btn-lg btn-primary" href="#gallery" role="button">Browse gallery</a></p>
             </div>
           </div>
         </div>
@@ -98,56 +109,6 @@
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div><!-- /.carousel -->
-
-    <!-- START THE FEATURETTES -->
-    <div id="whyamihere" class="container marketing">
-
-      <div class="text-wrapper container">
-        <h2>Why am <span class="text-muted">I here?</span></h2>
-        <p class="lead">Learn more about the reasons why you should have a freehand drawn version of your favourite picture.</p>
-      </div> 
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">A unique gift</h2>
-          <p class="lead">A drawing could be an awesome present for <span class="text-muted">birhdays, anniversaries, <b style="color:red">Valentine's day</b> and weddings. </span></p>
-          <p class="lead">It is a personal and you have to admire that the people would blow their mind. <a href="#gallery">Check my gallery</a> so that I can convence you.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/present.jpg">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-    </div>
 
     <!-- HIRE ME -->
     <div id="hire-me">
@@ -175,6 +136,77 @@
       </div>
     </div>
 
+    <!-- START THE FEATURETTES -->
+    <div id="whyamihere" class="container marketing">
+
+      <hr class="featurette-divider">
+
+      <div class="text-wrapper container">
+        <h2>How can I have it? <span class="text-muted">Easy peasy.</span></h2>
+        <p class="lead">Learn more about how easy it can be having your own.</p>
+      </div> 
+
+      <hr class="featurette-divider">
+
+      <div class="row">
+        <div class="col-md-7">
+          <div class="sliding-text-wrapper left">
+            <h2>Send <span class="text-muted">me</span></h2>
+            <p class="lead">a picture that you want to turn into a nice freehand drawing.</p>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/email-icon.png" alt="Send me an email icon">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/clock-icon.png" alt="Wait icon">
+        </div>
+        <div class="col-md-7">
+          <div class="sliding-text-wrapper right">
+            <h2>Wait at most <span class="text-muted">3 days.</span></h2>
+            <p class="lead">Of course it depends on your demands, but I can make it in at most 3 days</p>
+          </div>
+       </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <div class="sliding-text-wrapper left">
+            <h2>Check the <span class="text-muted">preview</span></h2>
+            <p class="lead">You will recieve a demo version of the picture in order to have a quick look at it <span class="text-muted">before you pay.</span></p>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/male-avatar-icon.png" alt="Money icon">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/money-icon.png" alt="Money icon">
+        </div>
+        <div class="col-md-7">
+          <div class="sliding-text-wrapper right">
+            <h2>Pay and <span class="text-muted">grab it.</span></h2>
+            <p class="lead">Once the payment has been confirmed you will recieve the high resolution version of the drawing in <span class="text-muted">JPEG format</span>.</p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+    </div>
+
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -185,7 +217,7 @@
       <div id="gallery">
         <div class="text-wrapper">
           <h2>Gallery time! <span class="text-muted">Check my latest portraits.</span></h2>
-          <p class="lead">I hope you will be persuaded to agree on that I should draw your desired picture as well.</p>
+          <p class="lead">I hope you will be persuaded to agree on that I should create a drawing to you.</p>
         </div>
         <div class="row">
           <div class="col-md-4">
@@ -257,26 +289,35 @@
       <hr class="featurette-divider">
 
       <!-- Three columns of text below the carousel -->
-      <div id="boxes" class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+      <div id="prizes">
+        <div class="text-wrapper">
+          <h2>Prizes<span class="text-muted"></span></h2>
+          <p class="lead">Choose one of my offers below that meets your expectations.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="img-responsive" src="img/avatar-icon.png" alt="portrait icon"/>
+            <h2>£25</h2>
+            <p class="lead">Single Portrait</p>
+            <p><span class="text-muted">A3 (11.7x16.5 inch)</span> sized freehand drawing in landscape or portrait orentation depending on your individual demands.</p>
+            <p><a class="btn btn-default" href="#" role="button">I want this &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="img-responsive" src="img/double-avatar-icon.png" alt="portrait icon"/>
+            <h2>£40</h2>
+            <p class="lead">Double Portrait</p>
+            <p><span class="text-muted">A3 (11.7x16.5 inch)</span> sized freehand drawing from two people. It is suitable for couples, siblings or teammates. It is available in landscape or portrait orentation depending on your individual demands.</p>
+            <p><a class="btn btn-default" href="#" role="button">I want this &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="img-responsive" src="img/question-icon.png" alt="portrait icon"/>
+            <h2>£50</h2>
+            <p class="lead">Customized</p>
+            <p><span class="text-muted">Custom</span> sized freehand drawing. It is recommended if you have particular claims or extreme demands.</p>
+            <p><a class="btn btn-default" href="#" role="button">I want this &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+      </div>
 
       <hr class="featurette-divider">
 
@@ -288,6 +329,7 @@
           <h1>Contact Me</h1>
           <hr />
           <p>Questions or comments?<br />Get in touch.</p>
+          <p><a id="contact-me-button" class="btn btn-lg btn-primary" role="button">Send a message</a></p>
       </div>
       <div class="row icons">
         <div class="col-md-4">
@@ -323,7 +365,7 @@
       <div class="row">
         <div class="col-md-8 left">
           <h2>Created by Webellion</h2>
-          <p>Based in <a target="_blank" href="https://maps.google.com/maps?q=London">London</a></p>
+          <p>Based in <span class="text-muted">London</span></p>
         </div>
         <div class="col-md-4 right">
           <p><a href="mailto:vbence86@gmail.com">bence.varga@webellion.hu</a></p>
